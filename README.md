@@ -11,7 +11,7 @@ Make sure following software is installed on your PC
 ## Project structure
 ```
 .
-├── hello-world
+├── decorate-pattern
 │   ├── pom.xml
 │   ...
 ├── pom.xml
