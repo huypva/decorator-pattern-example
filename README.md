@@ -23,13 +23,9 @@ Make sure following software is installed on your PC
 
 ```shell
 $ ./mvnw clean package
-$ java -jar ./hello-world/target/hello-world-0.0.1-SNAPSHOT.jar
-```
-
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+$ java -jar ./decorate-pattern/target/decorate-pattern-0.0.1-SNAPSHOT.jar
+16:51:25.451 [main] INFO io.github.huypva.decoratepattern.ConcreteComponent -- ComponentConcrete operate!
+16:51:25.452 [main] INFO io.github.huypva.decoratepattern.ConcreteDecorator -- ConcreteDecorator addBehavior!
 ```
 
 ## Contribute
@@ -43,3 +39,4 @@ The code is open sourced. I encourage fellow developers to contribute and help i
 - Create new Pull Request
 
 ## Reference
+- https://en.wikipedia.org/wiki/Decorator_pattern
